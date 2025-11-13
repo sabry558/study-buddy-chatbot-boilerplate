@@ -141,7 +141,7 @@ const ChatInterface = () => {
 
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: res.data.reply || 'No response received.',
+text: res.data.response || 'No response received.',
         sender: 'bot',
         timestamp: new Date(),
       };
